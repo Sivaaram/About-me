@@ -1,0 +1,73 @@
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+#hero img{
+    margin-top:15px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(44, 39, 39);
+    color: white;
+    padding:7px;
+}
+.about{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 450px;
+}
+.skills p{
+    display: inline-block;
+    border: 1px solid rgb(196, 194, 194);
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.skills p:hover{
+    background-color: royalblue;
+    color: white;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+nav a:hover{
+    background-color: rosybrown;
+    color: white;
+}
+.contact h4{
+    margin-top: 15px;
+}
+.contact{
+    background-color: #fff;
+    width:80%;
+    max-width: 550px;
+    margin:50px auto;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
